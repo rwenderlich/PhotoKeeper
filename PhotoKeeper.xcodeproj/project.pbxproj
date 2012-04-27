@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35A466CA154980F8001B56F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A466C9154980F8001B56F7 /* UIKit.framework */; };
+		35A466CC154980F8001B56F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A466CB154980F8001B56F7 /* Foundation.framework */; };
+		35A466CE154980F8001B56F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A466CD154980F8001B56F7 /* CoreGraphics.framework */; };
+		35A466D4154980F8001B56F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35A466D2154980F8001B56F7 /* InfoPlist.strings */; };
+		35A466D6154980F8001B56F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A466D5154980F8001B56F7 /* main.m */; };
+		35A466DA154980F8001B56F7 /* PTKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A466D9154980F8001B56F7 /* PTKAppDelegate.m */; };
+		35A466DD154980F8001B56F7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A466DB154980F8001B56F7 /* MainStoryboard.storyboard */; };
+		35A466E0154980F8001B56F7 /* PTKMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A466DF154980F8001B56F7 /* PTKMasterViewController.m */; };
+		35A466E3154980F8001B56F7 /* PTKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A466E2154980F8001B56F7 /* PTKDetailViewController.m */; };
+		35A466EB15499DAA001B56F7 /* PTKData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A466EA15499DAA001B56F7 /* PTKData.m */; };
+		35A466F015499F08001B56F7 /* PTKMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A466EF15499F08001B56F7 /* PTKMetadata.m */; };
+		35A466F31549A020001B56F7 /* PTKDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A466F21549A020001B56F7 /* PTKDocument.m */; };
+		35A466FB1549A258001B56F7 /* NSDate+FormattedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A466F71549A258001B56F7 /* NSDate+FormattedStrings.m */; };
+		35A466FC1549A258001B56F7 /* UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A466FA1549A258001B56F7 /* UIImageExtras.m */; };
+		35A466FF1549B98D001B56F7 /* PTKEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A466FE1549B98D001B56F7 /* PTKEntry.m */; };
+		35A4670A1549DD34001B56F7 /* PTKEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A467091549DD34001B56F7 /* PTKEntryCell.m */; };
+		35A4670F1549E3A3001B56F7 /* defaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 35A4670D1549E3A3001B56F7 /* defaultImage.png */; };
+		35A467101549E3A3001B56F7 /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 35A4670E1549E3A3001B56F7 /* warning.png */; };
+		35A46718154A1FCE001B56F7 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35A46717154A1FCE001B56F7 /* Settings.bundle */; };
+		35A4671F154AE1FE001B56F7 /* PTKConflictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A4671E154AE1FD001B56F7 /* PTKConflictViewController.m */; };
+		35A46723154AE5E2001B56F7 /* PTKConflictEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A46722154AE5E1001B56F7 /* PTKConflictEntry.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35A466C5154980F8001B56F7 /* PhotoKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A466C9154980F8001B56F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35A466CB154980F8001B56F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35A466CD154980F8001B56F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35A466D1154980F8001B56F7 /* PhotoKeeper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoKeeper-Info.plist"; sourceTree = "<group>"; };
+		35A466D3154980F8001B56F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35A466D5154980F8001B56F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35A466D7154980F8001B56F7 /* PhotoKeeper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoKeeper-Prefix.pch"; sourceTree = "<group>"; };
+		35A466D8154980F8001B56F7 /* PTKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTKAppDelegate.h; sourceTree = "<group>"; };
+		35A466D9154980F8001B56F7 /* PTKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTKAppDelegate.m; sourceTree = "<group>"; };
+		35A466DC154980F8001B56F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		35A466DE154980F8001B56F7 /* PTKMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTKMasterViewController.h; sourceTree = "<group>"; };
+		35A466DF154980F8001B56F7 /* PTKMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTKMasterViewController.m; sourceTree = "<group>"; };
+		35A466E1154980F8001B56F7 /* PTKDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTKDetailViewController.h; sourceTree = "<group>"; };
+		35A466E2154980F8001B56F7 /* PTKDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTKDetailViewController.m; sourceTree = "<group>"; };
+		35A466E915499DAA001B56F7 /* PTKData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKData.h; sourceTree = "<group>"; };
+		35A466EA15499DAA001B56F7 /* PTKData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKData.m; sourceTree = "<group>"; };
+		35A466EE15499F08001B56F7 /* PTKMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKMetadata.h; sourceTree = "<group>"; };
+		35A466EF15499F08001B56F7 /* PTKMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKMetadata.m; sourceTree = "<group>"; };
+		35A466F11549A020001B56F7 /* PTKDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKDocument.h; sourceTree = "<group>"; };
+		35A466F21549A020001B56F7 /* PTKDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKDocument.m; sourceTree = "<group>"; };
+		35A466F61549A258001B56F7 /* NSDate+FormattedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FormattedStrings.h"; sourceTree = "<group>"; };
+		35A466F71549A258001B56F7 /* NSDate+FormattedStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FormattedStrings.m"; sourceTree = "<group>"; };
+		35A466F91549A258001B56F7 /* UIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtras.h; sourceTree = "<group>"; };
+		35A466FA1549A258001B56F7 /* UIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExtras.m; sourceTree = "<group>"; };
+		35A466FD1549B98D001B56F7 /* PTKEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKEntry.h; sourceTree = "<group>"; };
+		35A466FE1549B98D001B56F7 /* PTKEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKEntry.m; sourceTree = "<group>"; };
+		35A467081549DD34001B56F7 /* PTKEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKEntryCell.h; sourceTree = "<group>"; };
+		35A467091549DD34001B56F7 /* PTKEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKEntryCell.m; sourceTree = "<group>"; };
+		35A4670D1549E3A3001B56F7 /* defaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultImage.png; sourceTree = "<group>"; };
+		35A4670E1549E3A3001B56F7 /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning.png; sourceTree = "<group>"; };
+		35A46716154A1E4F001B56F7 /* PhotoKeeper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoKeeper.entitlements; sourceTree = "<group>"; };
+		35A46717154A1FCE001B56F7 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		35A4671D154AE1FD001B56F7 /* PTKConflictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKConflictViewController.h; sourceTree = "<group>"; };
+		35A4671E154AE1FD001B56F7 /* PTKConflictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKConflictViewController.m; sourceTree = "<group>"; };
+		35A46721154AE5E1001B56F7 /* PTKConflictEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKConflictEntry.h; sourceTree = "<group>"; };
+		35A46722154AE5E1001B56F7 /* PTKConflictEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKConflictEntry.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35A466C2154980F7001B56F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A466CA154980F8001B56F7 /* UIKit.framework in Frameworks */,
+				35A466CC154980F8001B56F7 /* Foundation.framework in Frameworks */,
+				35A466CE154980F8001B56F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35A466BA154980F7001B56F7 = {
+			isa = PBXGroup;
+			children = (
+				35A466CF154980F8001B56F7 /* PhotoKeeper */,
+				35A466C8154980F8001B56F7 /* Frameworks */,
+				35A466C6154980F8001B56F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35A466C6154980F8001B56F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35A466C5154980F8001B56F7 /* PhotoKeeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35A466C8154980F8001B56F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35A466C9154980F8001B56F7 /* UIKit.framework */,
+				35A466CB154980F8001B56F7 /* Foundation.framework */,
+				35A466CD154980F8001B56F7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35A466CF154980F8001B56F7 /* PhotoKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				35A46716154A1E4F001B56F7 /* PhotoKeeper.entitlements */,
+				35A466F41549A258001B56F7 /* PhotoKeeperResources */,
+				35A466EC15499EF0001B56F7 /* Model */,
+				35A466ED15499EF6001B56F7 /* GUI */,
+				35A466D0154980F8001B56F7 /* Supporting Files */,
+			);
+			path = PhotoKeeper;
+			sourceTree = "<group>";
+		};
+		35A466D0154980F8001B56F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35A466D1154980F8001B56F7 /* PhotoKeeper-Info.plist */,
+				35A466D2154980F8001B56F7 /* InfoPlist.strings */,
+				35A466D5154980F8001B56F7 /* main.m */,
+				35A466D7154980F8001B56F7 /* PhotoKeeper-Prefix.pch */,
+				35A46717154A1FCE001B56F7 /* Settings.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35A466EC15499EF0001B56F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35A466E915499DAA001B56F7 /* PTKData.h */,
+				35A466EA15499DAA001B56F7 /* PTKData.m */,
+				35A466EE15499F08001B56F7 /* PTKMetadata.h */,
+				35A466EF15499F08001B56F7 /* PTKMetadata.m */,
+				35A466F11549A020001B56F7 /* PTKDocument.h */,
+				35A466F21549A020001B56F7 /* PTKDocument.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		35A466ED15499EF6001B56F7 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				35A466D8154980F8001B56F7 /* PTKAppDelegate.h */,
+				35A466D9154980F8001B56F7 /* PTKAppDelegate.m */,
+				35A466DB154980F8001B56F7 /* MainStoryboard.storyboard */,
+				35A466DE154980F8001B56F7 /* PTKMasterViewController.h */,
+				35A466DF154980F8001B56F7 /* PTKMasterViewController.m */,
+				35A466E1154980F8001B56F7 /* PTKDetailViewController.h */,
+				35A466E2154980F8001B56F7 /* PTKDetailViewController.m */,
+				35A466FD1549B98D001B56F7 /* PTKEntry.h */,
+				35A466FE1549B98D001B56F7 /* PTKEntry.m */,
+				35A467081549DD34001B56F7 /* PTKEntryCell.h */,
+				35A467091549DD34001B56F7 /* PTKEntryCell.m */,
+				35A4671D154AE1FD001B56F7 /* PTKConflictViewController.h */,
+				35A4671E154AE1FD001B56F7 /* PTKConflictViewController.m */,
+				35A46721154AE5E1001B56F7 /* PTKConflictEntry.h */,
+				35A46722154AE5E1001B56F7 /* PTKConflictEntry.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		35A466F41549A258001B56F7 /* PhotoKeeperResources */ = {
+			isa = PBXGroup;
+			children = (
+				35A4670C1549E3A3001B56F7 /* images */,
+				35A466F51549A258001B56F7 /* NSDate+FormattedStrings */,
+				35A466F81549A258001B56F7 /* UIImageExtras */,
+			);
+			name = PhotoKeeperResources;
+			path = PhotoKeeperHelpers;
+			sourceTree = "<group>";
+		};
+		35A466F51549A258001B56F7 /* NSDate+FormattedStrings */ = {
+			isa = PBXGroup;
+			children = (
+				35A466F61549A258001B56F7 /* NSDate+FormattedStrings.h */,
+				35A466F71549A258001B56F7 /* NSDate+FormattedStrings.m */,
+			);
+			path = "NSDate+FormattedStrings";
+			sourceTree = "<group>";
+		};
+		35A466F81549A258001B56F7 /* UIImageExtras */ = {
+			isa = PBXGroup;
+			children = (
+				35A466F91549A258001B56F7 /* UIImageExtras.h */,
+				35A466FA1549A258001B56F7 /* UIImageExtras.m */,
+			);
+			path = UIImageExtras;
+			sourceTree = "<group>";
+		};
+		35A4670C1549E3A3001B56F7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				35A4670D1549E3A3001B56F7 /* defaultImage.png */,
+				35A4670E1549E3A3001B56F7 /* warning.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35A466C4154980F7001B56F7 /* PhotoKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A466E6154980F8001B56F7 /* Build configuration list for PBXNativeTarget "PhotoKeeper" */;
+			buildPhases = (
+				35A466C1154980F7001B56F7 /* Sources */,
+				35A466C2154980F7001B56F7 /* Frameworks */,
+				35A466C3154980F7001B56F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoKeeper;
+			productName = PhotoKeeper;
+			productReference = 35A466C5154980F8001B56F7 /* PhotoKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35A466BC154980F7001B56F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PTK;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 35A466BF154980F7001B56F7 /* Build configuration list for PBXProject "PhotoKeeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35A466BA154980F7001B56F7;
+			productRefGroup = 35A466C6154980F8001B56F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35A466C4154980F7001B56F7 /* PhotoKeeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35A466C3154980F7001B56F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A466D4154980F8001B56F7 /* InfoPlist.strings in Resources */,
+				35A466DD154980F8001B56F7 /* MainStoryboard.storyboard in Resources */,
+				35A4670F1549E3A3001B56F7 /* defaultImage.png in Resources */,
+				35A467101549E3A3001B56F7 /* warning.png in Resources */,
+				35A46718154A1FCE001B56F7 /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35A466C1154980F7001B56F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A466D6154980F8001B56F7 /* main.m in Sources */,
+				35A466DA154980F8001B56F7 /* PTKAppDelegate.m in Sources */,
+				35A466E0154980F8001B56F7 /* PTKMasterViewController.m in Sources */,
+				35A466E3154980F8001B56F7 /* PTKDetailViewController.m in Sources */,
+				35A466EB15499DAA001B56F7 /* PTKData.m in Sources */,
+				35A466F015499F08001B56F7 /* PTKMetadata.m in Sources */,
+				35A466F31549A020001B56F7 /* PTKDocument.m in Sources */,
+				35A466FB1549A258001B56F7 /* NSDate+FormattedStrings.m in Sources */,
+				35A466FC1549A258001B56F7 /* UIImageExtras.m in Sources */,
+				35A466FF1549B98D001B56F7 /* PTKEntry.m in Sources */,
+				35A4670A1549DD34001B56F7 /* PTKEntryCell.m in Sources */,
+				35A4671F154AE1FE001B56F7 /* PTKConflictViewController.m in Sources */,
+				35A46723154AE5E2001B56F7 /* PTKConflictEntry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35A466D2154980F8001B56F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35A466D3154980F8001B56F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35A466DB154980F8001B56F7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35A466DC154980F8001B56F7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35A466E4154980F8001B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35A466E5154980F8001B56F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35A466E7154980F8001B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoKeeper/PhotoKeeper.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ray Wenderlich (JW4X86528D)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoKeeper/PhotoKeeper-Prefix.pch";
+				INFOPLIST_FILE = "PhotoKeeper/PhotoKeeper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "465444D8-2AB2-46AC-B49A-5FFF7A846953";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35A466E8154980F8001B56F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoKeeper/PhotoKeeper.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ray Wenderlich (JW4X86528D)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoKeeper/PhotoKeeper-Prefix.pch";
+				INFOPLIST_FILE = "PhotoKeeper/PhotoKeeper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "465444D8-2AB2-46AC-B49A-5FFF7A846953";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35A466BF154980F7001B56F7 /* Build configuration list for PBXProject "PhotoKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A466E4154980F8001B56F7 /* Debug */,
+				35A466E5154980F8001B56F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A466E6154980F8001B56F7 /* Build configuration list for PBXNativeTarget "PhotoKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A466E7154980F8001B56F7 /* Debug */,
+				35A466E8154980F8001B56F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35A466BC154980F7001B56F7 /* Project object */;
+}
